@@ -120,8 +120,8 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/AFGCLIENT/Snyware/mai
 local Button = SecondTab:CreateButton({
    Name = "BB Legends",
    Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/xtrey10x/xtrey10x-hub/main/Basketball%20Legends"))()  
- end,
+ loadstring(game:HttpGet("https://vexiumhub.xyz/BasketballLegends.lua", true))()
+  end,
 })
 
 local Button = ThirdTab:CreateButton({
