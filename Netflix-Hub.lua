@@ -124,6 +124,13 @@ local Button = SecondTab:CreateButton({
   end,
 })
 
+local Button = SecondTab:CreateButton({
+   Name = "Bigfoot!",
+   Callback = function()
+ loadstring(game:HttpGet("https://pastebin.com/ezMmEF8t", true))()
+  end,
+})
+
 local Button = ThirdTab:CreateButton({
    Name = "FE Hub",
    Callback = function()
