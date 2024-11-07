@@ -7,24 +7,24 @@ print([[
  ░███  ░░█████ ░███░░░    ░███ ███  ░███      ░███  ░███   ███░░░███ 
  █████  ░░█████░░██████   ░░█████   █████     █████ █████ █████ █████
 ░░░░░    ░░░░░  ░░░░░░     ░░░░░   ░░░░░     ░░░░░ ░░░░░ ░░░░░ ░░░░░                                                                                            
-                                                      Made By SigmaLordLawliet
+                                                      Made By SigmaLordBrawl
 ]])
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 local Window = Rayfield:CreateWindow({
    Name = "Netflix Hub",
    LoadingTitle = "Welcome",
-   LoadingSubtitle = "Coded By SigmaLordLawliet",
+   LoadingSubtitle = "Coded By SigmaLordBrawl",
    ConfigurationSaving = {
       Enabled = true,
       FolderName = nil, 
-      FileName = "Lawliet's_Config"
+      FileName = "Brawl's_Config"
    },
    KeySystem = false,
 })
 
 Rayfield:Notify({
    Title = "Netflix Hubb",
-   Content = "Made by SigmaLordLawliet.",
+   Content = "Made by SigmaLordBrawl.",
    Duration = 6.5,
    Image = 5399142179,
    Actions = { 
